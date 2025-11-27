@@ -6,8 +6,10 @@
 
 'use strict';
 
+const { name, version, description } = require('./package.json');
+
 module.exports = {
-  name: 'stripes',
-  version: '1.3.3.7',
-  description: 'EMS - Everything Running Seamlessly'
+  name,
+  version,
+  description
 };
